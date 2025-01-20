@@ -1,7 +1,7 @@
 /* 
-=========================================
+
 General Styles 
-=========================================
+
 */
 body {
     font-family: 'Roboto', sans-serif; /* Use Roboto font for a clean, modern look */
@@ -21,9 +21,9 @@ main {
 }
 
 /* 
-=========================================
+
 Card Styles 
-=========================================
+
 */
 .card {
     background-color: #fff; /* White background for a clean appearance */
@@ -48,9 +48,9 @@ Card Styles
 }
 
 /* 
-=========================================
+
 Card Header Styles 
-=========================================
+
 */
 .card-header {
     background: linear-gradient(135deg, #e0f7fa, #00796b); /* Add gradient for visual appeal */
@@ -70,9 +70,9 @@ Card Header Styles
 }
 
 /* 
-=========================================
+
 Card Image Styles 
-=========================================
+
 */
 .card-image img {
     width: 100%; /* Make the image responsive */
@@ -87,9 +87,9 @@ Card Image Styles
 }
 
 /* 
-=========================================
+
 Card Content Styles 
-=========================================
+
 */
 .card-content {
     padding: 15px; /* Add padding for spacing */
@@ -102,9 +102,9 @@ Card Content Styles
 }
 
 /* 
-=========================================
+
 Card Details Styles 
-=========================================
+
 */
 .card-details {
     padding: 15px; /* Add spacing inside the details section */
@@ -127,9 +127,9 @@ Card Details Styles
 }
 
 /* 
-=========================================
+
 Card Footer Styles 
-=========================================
+
 */
 .card-footer {
     background-color: #00796b; /* Use brand color for the footer */
@@ -150,9 +150,9 @@ Card Footer Styles
 }
 
 /* 
-=========================================
+
 Mobile Responsiveness 
-=========================================
+
 */
 
 /* Medium screens (tablets and small laptops) */
