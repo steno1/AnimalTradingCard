@@ -1,39 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- 
+        Specifies the document type and version of HTML.
+        Defines the language of the document as English.
+    -->
     <meta charset="UTF-8">
+    <!-- 
+        Sets the character encoding for the document to UTF-8, 
+        allowing support for most languages and special characters.
+    -->
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 
+        Ensures proper scaling and responsiveness on mobile devices.
+        Sets the viewport width to the device width and scales the initial zoom to 100%.
+    -->
+
     <title>Animal Trading Card</title>
+    <!-- The title of the webpage displayed on the browser tab. -->
+
+    <!-- Link to the external CSS file for styling. -->
     <link rel="stylesheet" href="styles.css">
+
+    <!-- Link to Font Awesome for using scalable vector icons. -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- Link to Google Fonts for importing the Roboto font family. -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- 
+        Main section of the page, containing the core content.
+        Acts as the container for the trading card.
+    -->
     <main>
+        <!-- Article representing the Snow Leopard trading card. -->
         <article class="card">
+            <!-- 
+                Header of the card displaying the title and scientific name 
+                of the Snow Leopard.
+            -->
             <header class="card-header">
                 <h1>Snow Leopard</h1>
+                <!-- Title of the card. -->
+
                 <p class="scientific-name">Panthera uncia</p>
+                <!-- Scientific name styled distinctly. -->
             </header>
+
+            <!-- 
+                Figure element for the image of the Snow Leopard 
+                and its associated caption.
+            -->
             <figure class="card-image">
                 <img src="image/leopard.jpg" alt="A beautiful snow leopard in the wild">
+                <!-- Displays the Snow Leopard image with alt text for accessibility. -->
+
                 <figcaption>Snow Leopard in its natural habitat</figcaption>
+                <!-- Caption describing the image. -->
             </figure>
+
+            <!-- Section providing a description of the Snow Leopard. -->
             <section class="card-content">
                 <h2>About the Snow Leopard</h2>
-                <p>The snow leopard is a majestic big cat known for its stunning coat and elusive behavior. Native to the mountain ranges of Central and South Asia, it is well adapted to cold climates and rugged terrains.</p>
+                <!-- Subheading for the description section. -->
+
+                <p>
+                    The snow leopard is a majestic big cat known for its stunning coat 
+                    and elusive behavior. Native to the mountain ranges of Central and South Asia, 
+                    it is well adapted to cold climates and rugged terrains.
+                </p>
+                <!-- Paragraph giving detailed information about the animal. -->
             </section>
+
+            <!-- 
+                Section containing quick facts about the Snow Leopard. 
+                Presented as a list with icons for better visualization.
+            -->
             <section class="card-details">
                 <h2>Quick Facts</h2>
+                <!-- Subheading for the quick facts section. -->
+
                 <ul>
+                    <!-- Each list item displays a fact with an icon for visual appeal. -->
                     <li><i class="fa fa-home"></i> <strong>Habitat:</strong> Mountain ranges, especially the Himalayas.</li>
                     <li><i class="fa fa-utensils"></i> <strong>Diet:</strong> Carnivorous, feeding on animals like sheep and goats.</li>
                     <li><i class="fa fa-clock"></i> <strong>Lifespan:</strong> 15-18 years in the wild.</li>
                     <li><i class="fa fa-exclamation-circle"></i> <strong>Status:</strong> Vulnerable (IUCN Red List).</li>
                 </ul>
             </section>
+
+            <!-- Footer containing a call-to-action link for additional information. -->
             <footer class="card-footer">
                 <a href="#">Learn More</a>
+                <!-- Placeholder link to guide users for more details. -->
             </footer>
         </article>
     </main>
