@@ -35,15 +35,17 @@ git clone https://github.com/steno1/AnimalTradingCard.git
 2. Navigate to the Project Directory
 Change into the project directory:
 
+
 cd animal-trading-card
 3. Open the Project
 Open the index.html file in any modern web browser to view the project.
 
 🚀 Usage
 GitHub Pages
-Once you set up GitHub Pages in the repository settings, you can view your project live at:
+The project is live and can be accessed here:
 
-https://github.com/steno1/AnimalTradingCard.git
+🌐 View Live Project
+
 Locally
 To run the project locally:
 
@@ -62,14 +64,12 @@ GitHub Pages: Used for free hosting of the project.
 This project is licensed under the MIT License.
 
 💡 Credits
-
 Font Awesome: For the icons used in the quick facts section.
 Google Fonts: For the clean, modern fonts in the design.
 GitHub Pages: For hosting the project and providing free web hosting.
 🛠️ Contribution
 Feel free to fork this repository, submit pull requests, or open issues for suggestions or bug reports. Contributions are always welcome!
 
-🗂️ Folder Structure
 
 /animal-trading-card
 ├── index.html         # Main HTML file for the trading card
@@ -86,3 +86,4 @@ Conservation Status: Vulnerable (IUCN Red List).
 
 📞 Contact
 For questions or suggestions, feel free to open an issue or contact via GitHub.
+
