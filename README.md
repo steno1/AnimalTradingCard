@@ -44,7 +44,7 @@ Open the index.html file in any modern web browser to view the project.
 GitHub Pages
 The project is live and can be accessed here:
 
-🌐 View Live Project
+🌐 View Live Project @ https://steno1.github.io/AnimalTradingCard/
 
 Locally
 To run the project locally:
