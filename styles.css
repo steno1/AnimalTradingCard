@@ -1,143 +1,182 @@
-/* General Styles */
+/* 
+=========================================
+General Styles 
+=========================================
+*/
 body {
-    font-family: 'Roboto', sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f9;
-    color: #333;
+    font-family: 'Roboto', sans-serif; /* Use Roboto font for a clean, modern look */
+    line-height: 1.6; /* Improve text readability with proper line height */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    background-color: #f4f4f9; /* Set a light background for contrast */
+    color: #333; /* Set a neutral text color for good contrast */
 }
 
 main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 165vh;
-    padding: 20px;
+    display: flex; /* Center the card using flexbox */
+    justify-content: center; /* Horizontally center the card */
+    align-items: center; /* Vertically center the card */
+    height: 165vh; /* Set the height of the main container */
+    padding: 20px; /* Add padding around the content */
 }
 
-/* Card Styles */
+/* 
+=========================================
+Card Styles 
+=========================================
+*/
 .card {
-    background-color: #fff;
-    border: 2px solid transparent;
-    border-radius: 20px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 5px 15px rgba(0, 0, 0, 0.1);
-    max-width: 400px;
-    overflow: hidden;
-    text-align: center;
-    margin: 20px 0; /* Add margin at the top and bottom */
-    width: 100%; /* Ensure card uses full available width */
-    box-sizing: border-box; /* Include padding in width calculation */
-    position: relative;
+    background-color: #fff; /* White background for a clean appearance */
+    border: 2px solid transparent; /* Initial border for structure */
+    border-radius: 20px; /* Rounded corners for a modern look */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 
+                0 5px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    max-width: 400px; /* Limit card width for a compact design */
+    overflow: hidden; /* Prevent content from overflowing */
+    text-align: center; /* Center-align text inside the card */
+    margin: 20px 0; /* Add spacing above and below the card */
+    width: 100%; /* Allow the card to scale responsively */
+    box-sizing: border-box; /* Include padding and border in width calculation */
+    position: relative; /* Establish a positioning context */
 }
-
 
 .card:hover {
-    transform: scale(1.02); /* Slight zoom effect */
-    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+    transform: scale(1.02); /* Add a subtle zoom effect on hover */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+    transition: transform 0.3s ease, 
+                box-shadow 0.3s ease; /* Smooth transition effect */
 }
 
+/* 
+=========================================
+Card Header Styles 
+=========================================
+*/
 .card-header {
-    background: linear-gradient(135deg, #e0f7fa, #00796b); /* Gradient header */
-    padding: 20px;
+    background: linear-gradient(135deg, #e0f7fa, #00796b); /* Add gradient for visual appeal */
+    padding: 20px; /* Add spacing inside the header */
 }
 
 .card-header h1 {
-    font-size: 24px;
-    margin: 0;
-    color: #fff;
+    font-size: 24px; /* Set a large font size for the title */
+    margin: 0; /* Remove default margin */
+    color: #fff; /* White text for contrast against the gradient */
 }
 
 .card-header .scientific-name {
-    font-size: 14px;
-    color: #004d40;
-    font-style: italic;
+    font-size: 14px; /* Smaller text for scientific name */
+    color: #004d40; /* Dark green color for contrast */
+    font-style: italic; /* Italicize the scientific name */
 }
 
+/* 
+=========================================
+Card Image Styles 
+=========================================
+*/
 .card-image img {
-    width: 100%;
-    height: auto;
+    width: 100%; /* Make the image responsive */
+    height: auto; /* Maintain aspect ratio */
 }
 
 .card-image figcaption {
-    font-size: 12px;
-    color: #666;
-    padding: 5px 0;
-    background-color: #f9f9f9;
+    font-size: 12px; /* Small font size for the caption */
+    color: #666; /* Neutral color for the text */
+    padding: 5px 0; /* Add spacing around the text */
+    background-color: #f9f9f9; /* Light background for separation */
 }
 
+/* 
+=========================================
+Card Content Styles 
+=========================================
+*/
 .card-content {
-    padding: 15px;
+    padding: 15px; /* Add padding for spacing */
 }
 
 .card-content h2 {
-    font-size: 20px;
-    color: #00796b;
-    margin-bottom: 10px;
+    font-size: 20px; /* Set font size for section heading */
+    color: #00796b; /* Match brand colors */
+    margin-bottom: 10px; /* Add spacing below the heading */
 }
 
+/* 
+=========================================
+Card Details Styles 
+=========================================
+*/
 .card-details {
-    padding: 15px;
-    background-color: #fafafa;
+    padding: 15px; /* Add spacing inside the details section */
+    background-color: #fafafa; /* Light background for separation */
 }
 
 .card-details ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+    list-style-type: none; /* Remove default list bullets */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
 }
 
 .card-details li {
-    margin: 10px 0;
-    text-align: left;
+    margin: 10px 0; /* Add spacing between list items */
+    text-align: left; /* Align text to the left */
 }
 
 .card-details li strong {
-    color: #00796b;
+    color: #00796b; /* Highlight important text */
 }
 
+/* 
+=========================================
+Card Footer Styles 
+=========================================
+*/
 .card-footer {
-    background-color: #00796b;
-    color: white;
-    padding: 10px;
-    text-align: center;
-    font-size: 16px;
+    background-color: #00796b; /* Use brand color for the footer */
+    color: white; /* White text for contrast */
+    padding: 10px; /* Add padding for spacing */
+    text-align: center; /* Center-align the footer text */
+    font-size: 16px; /* Set font size for readability */
 }
 
 .card-footer a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
+    color: white; /* White link text for visibility */
+    text-decoration: none; /* Remove underline for clean appearance */
+    font-weight: bold; /* Emphasize the link */
 }
 
 .card-footer a:hover {
-    text-decoration: underline;
+    text-decoration: underline; /* Add underline on hover for clarity */
 }
 
+/* 
+=========================================
+Mobile Responsiveness 
+=========================================
+*/
 
-/* Mobile Responsiveness */
+/* Medium screens (tablets and small laptops) */
 @media screen and (max-width: 768px) {
     main {
-        height: auto; /* Adjust main height for mobile screens */
-        padding: 10px;
+        height: auto; /* Adjust height for smaller screens */
+        padding: 10px; /* Reduce padding */
     }
 
     .card {
-        max-width: 100%; /* Make the card take full width on smaller screens */
-        margin: 10px 0; /* Reduce margin */
+        max-width: 100%; /* Allow card to use full width */
+        margin: 10px 0; /* Reduce spacing */
     }
 
     .card-header h1 {
-        font-size: 22px; /* Slightly reduce font size for mobile */
+        font-size: 22px; /* Adjust font size for smaller screens */
     }
 
     .card-header .scientific-name {
-        font-size: 12px; /* Reduce font size for mobile */
+        font-size: 12px; /* Smaller scientific name text */
     }
 
     .card-content h2 {
-        font-size: 18px; /* Adjust heading size for mobile */
+        font-size: 18px; /* Adjust section heading size */
     }
 
     .card-details li {
@@ -145,17 +184,17 @@ main {
     }
 }
 
+/* Small screens (phones) */
 @media screen and (max-width: 480px) {
     .card-header h1 {
-        font-size: 20px; /* Further reduce font size for very small screens */
+        font-size: 20px; /* Further reduce font size for smaller devices */
     }
 
     .card-content h2 {
-        font-size: 16px; /* Further reduce heading size */
+        font-size: 16px; /* Adjust heading size for readability */
     }
 
     .card-details li {
-        font-size: 12px; /* Make text smaller on very small screens */
+        font-size: 12px; /* Reduce text size for compact view */
     }
 }
-
