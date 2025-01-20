@@ -114,3 +114,48 @@ main {
 .card-footer a:hover {
     text-decoration: underline;
 }
+
+
+/* Mobile Responsiveness */
+@media screen and (max-width: 768px) {
+    main {
+        height: auto; /* Adjust main height for mobile screens */
+        padding: 10px;
+    }
+
+    .card {
+        max-width: 100%; /* Make the card take full width on smaller screens */
+        margin: 10px 0; /* Reduce margin */
+    }
+
+    .card-header h1 {
+        font-size: 22px; /* Slightly reduce font size for mobile */
+    }
+
+    .card-header .scientific-name {
+        font-size: 12px; /* Reduce font size for mobile */
+    }
+
+    .card-content h2 {
+        font-size: 18px; /* Adjust heading size for mobile */
+    }
+
+    .card-details li {
+        font-size: 14px; /* Adjust text size for better readability */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .card-header h1 {
+        font-size: 20px; /* Further reduce font size for very small screens */
+    }
+
+    .card-content h2 {
+        font-size: 16px; /* Further reduce heading size */
+    }
+
+    .card-details li {
+        font-size: 12px; /* Make text smaller on very small screens */
+    }
+}
+
